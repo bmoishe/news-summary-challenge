@@ -22,5 +22,5 @@ xhttp.onreadystatechange = function() {
   }
 
 };
-    xhttp.open("GET", "http://news-summary-api.herokuapp.com/guardian?apiRequestUrl=https://content.guardianapis.com/search?qfrom-date="+ formatDate()+ "&section=technology&show-fields=all", true);
+    xhttp.open("GET", "https://news-summary-api.herokuapp.com/guardian?apiRequestUrl=https://content.guardianapis.com/search?qfrom-date="+ formatDate()+ "&section=technology&show-fields=all", true);
     xhttp.send();
